@@ -1,18 +1,18 @@
-# Avendesta Tap
+# Homebrew tap for Rekord
 
-## How do I install these formulae?
+Install [Rekord](https://github.com/avendesta/Rekord), a macOS menu bar app that records system audio and your microphone as separate tracks:
 
-`brew install avendesta/tap/<formula>`
-
-Or `brew tap avendesta/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "avendesta/tap"
-brew "<formula>"
+```sh
+brew install --cask avendesta/tap/rekord
 ```
 
-## Documentation
+Or add the tap first:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew tap avendesta/tap
+brew install --cask rekord
+```
+
+Requires macOS 14 (Sonoma) or later. Rekord is signed with a Developer ID and notarized by Apple.
+
+Update with `brew upgrade --cask rekord`, remove with `brew uninstall --cask rekord` (add `--zap` to also delete its preferences; your recordings are never touched).
