@@ -1,6 +1,6 @@
 cask "rekord" do
-  version "1.8.7"
-  sha256 "9a3b4075d8859bca48c854a14424206acce3fcf9c944d30bec8d100fe7b325c1"
+  version "1.9.0"
+  sha256 "f5febb2ec2942e5a15a61390f1d298cebad234a2aa9f3c3f812f9d9cc6938f47"
 
   url "https://github.com/avendesta/Rekord/releases/download/v#{version}/Rekord-#{version}.zip"
   name "Rekord"
